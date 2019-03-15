@@ -1,0 +1,523 @@
+<root>
+	<OBJECT_ID>			INT32		</OBJECT_ID>
+	<BOOL>				UINT8		</BOOL>
+	<DBID>				UINT64		</DBID>
+	<UID>				UINT64		</UID>
+	<UID1>				PYTHON		</UID1>	
+	<ENTITY_ID>			INT32		</ENTITY_ID>
+	<POSITION3D>		VECTOR3		</POSITION3D>
+	<DIRECTION3D>		VECTOR3		</DIRECTION3D>
+	<ENTITY_UTYPE>		UINT32		</ENTITY_UTYPE>
+    <FRAMEID>             UINT32      </FRAMEID>
+    <CMD_TYPE>             UINT8      </CMD_TYPE>	
+    <SPACE_KEY>			UINT64		</SPACE_KEY>
+
+	<AVATAR_DATA>	FIXED_DICT
+		<implementedBy>AVATAR_DATA.inst</implementedBy>
+		<Properties>
+			<param1>
+				<Type>	INT8	</Type>
+			</param1>
+			<param2>
+				<Type>	BLOB	</Type>
+			</param2>
+		</Properties>
+	</AVATAR_DATA>	
+	
+	<AVATAR_INFOS>	FIXED_DICT
+		<implementedBy>AVATAR_INFOS.avatar_info_inst</implementedBy>
+		<Properties>
+			<dbid>
+				<Type>	DBID	</Type>
+			</dbid>
+			<name>
+				<Type>	UNICODE	</Type>
+				<DatabaseLength> 256 </DatabaseLength>
+			</name>
+			<roleType>
+				<Type>	UINT8	</Type>
+			</roleType>
+			<level>
+				<Type>	UINT16	</Type>
+			</level>
+			<data>
+				<Type>	AVATAR_DATA	</Type>
+			</data>
+		</Properties>
+	</AVATAR_INFOS>	
+	
+	<AVATAR_INFOS_LIST>	FIXED_DICT
+		<implementedBy>AVATAR_INFOS.avatar_info_list_inst</implementedBy>
+		<Properties>
+			<values>
+				<Type>	ARRAY <of> AVATAR_INFOS </of>	</Type>
+			</values>
+		</Properties>
+	</AVATAR_INFOS_LIST>
+
+    <FS_ENTITY_DATA>	FIXED_DICT
+		<implementedBy>FS_ENTITY_DATA.inst</implementedBy>
+		<Properties>
+			<entityid>
+				<Type>	ENTITY_ID	</Type>
+			</entityid>
+			<cmd_type>
+				<Type>	CMD_TYPE	</Type>
+			</cmd_type>
+			<datas>
+				<Type>	BLOB	</Type>
+			</datas>
+		</Properties>
+	</FS_ENTITY_DATA>
+
+
+	<FS_FRAME_DATA>	FIXED_DICT
+		<implementedBy>FS_FRAME_DATA.inst</implementedBy>
+		<Properties>
+			<frameid>
+				<Type>	FRAMEID	</Type>
+			</frameid>
+			<operation>
+				<Type>	ARRAY <of> FS_ENTITY_DATA </of> </Type>
+			</operation>
+		</Properties>
+	</FS_FRAME_DATA>
+
+	<FS_FRAME_LIST>	FIXED_DICT
+		<implementedBy>FS_FRAME_LIST.inst</implementedBy>
+		<Properties>
+			<values>
+				<Type>	ARRAY <of> FS_FRAME_DATA </of>	</Type>
+			</values>
+		</Properties>
+	</FS_FRAME_LIST>
+
+
+	<D_ROAD_INFOS>	FIXED_DICT
+		<implementedBy>D_ROAD_INFOS.d_road_info_inst</implementedBy>
+		<Properties>
+			<id>
+				<Type>INT32</Type>
+			</id>
+			<group>
+				<Type>INT32</Type>
+			</group>
+			<position_x>
+				<Type>FLOAT</Type>
+			</position_x>
+			<position_y>
+				<Type>FLOAT</Type>
+			</position_y>
+			<position_z>
+				<Type>FLOAT</Type>
+			</position_z>
+			<eulerAngles_x>
+				<Type>FLOAT</Type>
+			</eulerAngles_x>
+			<eulerAngles_y>
+				<Type>FLOAT</Type>
+			</eulerAngles_y>
+			<eulerAngles_z>
+				<Type>FLOAT</Type>
+			</eulerAngles_z>
+			<born>
+				<Type>INT32</Type>
+			</born>
+		</Properties>
+	</D_ROAD_INFOS>
+
+	<D_ROAD_INFOS_LIST>	FIXED_DICT
+		<implementedBy>D_ROAD_INFOS.d_road_info_list_inst</implementedBy>
+		<Properties>
+			<values>
+				<Type>	ARRAY <of> D_ROAD_INFOS </of>	</Type>
+			</values>
+		</Properties>
+	</D_ROAD_INFOS_LIST>
+
+
+	<D_HERO_INFOS>	FIXED_DICT
+		<implementedBy>D_HERO_INFOS.d_hero_info_inst</implementedBy>
+		<Properties>
+			<id>
+				<Type>INT32</Type>
+			</id>
+			<name>
+				<Type>STRING</Type>
+			</name>
+			<nick_name>
+				<Type>UNICODE</Type>
+			</nick_name>
+			<race>
+				<Type>INT32</Type>
+			</race>
+			<race_desc>
+				<Type>UNICODE</Type>
+			</race_desc>
+			<skill_1>
+				<Type>INT32</Type>
+			</skill_1>
+			<skill_2>
+				<Type>INT32</Type>
+			</skill_2>
+			<skill_3>
+				<Type>INT32</Type>
+			</skill_3>
+			<skill_4>
+				<Type>INT32</Type>
+			</skill_4>
+			<hero_hp>
+				<Type>INT32</Type>
+			</hero_hp>
+			<hero_mp>
+				<Type>INT32</Type>
+			</hero_mp>
+			<hero_strength>
+				<Type>INT32</Type>
+			</hero_strength>
+			<hero_agile>
+				<Type>INT32</Type>
+			</hero_agile>
+			<hero_intelligence>
+				<Type>INT32</Type>
+			</hero_intelligence>
+			<hero_attacktime>
+				<Type>INT32</Type>
+			</hero_attacktime>
+			<hero_speed>
+				<Type>INT32</Type>
+			</hero_speed>
+			<hero_attackfront>
+				<Type>INT32</Type>
+			</hero_attackfront>
+			<hero_attackback>
+				<Type>INT32</Type>
+			</hero_attackback>
+			<hero_skillfront>
+				<Type>INT32</Type>
+			</hero_skillfront>
+			<hero_skillback>
+				<Type>INT32</Type>
+			</hero_skillback>
+			<hero_scope>
+				<Type>INT32</Type>
+			</hero_scope>
+			<hero_attack>
+				<Type>INT32</Type>
+			</hero_attack>
+			<hero_armor>
+				<Type>INT32</Type>
+			</hero_armor>
+			<hero_unarmor>
+				<Type>INT32</Type>
+			</hero_unarmor>
+			<hero_magic>
+				<Type>INT32</Type>
+			</hero_magic>
+			<hero_magicresist>
+				<Type>INT32</Type>
+			</hero_magicresist>
+			<hero_hprestored>
+				<Type>INT32</Type>
+			</hero_hprestored>
+			<hero_mprestored>
+				<Type>INT32</Type>
+			</hero_mprestored>
+			<hero_crit>
+				<Type>INT32</Type>
+			</hero_crit>
+			<hero_uncrit>
+				<Type>INT32</Type>
+			</hero_uncrit>
+			<hero_critunmber>
+				<Type>INT32</Type>
+			</hero_critunmber>
+			<hero_evade>
+				<Type>INT32</Type>
+			</hero_evade>
+			<hero_unevade>
+				<Type>INT32</Type>
+			</hero_unevade>
+			<hero_parry>
+				<Type>INT32</Type>
+			</hero_parry>
+			<hero_unparry>
+				<Type>INT32</Type>
+			</hero_unparry>
+			<hero_parrynumber>
+				<Type>INT32</Type>
+			</hero_parrynumber>
+			<hero_xixue>
+				<Type>INT32</Type>
+			</hero_xixue>
+			<atk_power>
+				<Type>INT32</Type>
+			</atk_power>
+			<hurt_power>
+				<Type>INT32</Type>
+			</hurt_power>
+			<kill_power>
+				<Type>INT32</Type>
+			</kill_power>
+			<hero_energe>
+				<Type>INT32</Type>
+			</hero_energe>
+			<head_icon>
+				<Type>STRING</Type>
+			</head_icon>
+		</Properties>
+	</D_HERO_INFOS>
+
+	<D_HERO_INFOS_LIST>	FIXED_DICT
+		<implementedBy>D_HERO_INFOS.d_hero_info_list_inst</implementedBy>
+		<Properties>
+			<values>
+				<Type>	ARRAY <of> D_HERO_INFOS </of>	</Type>
+			</values>
+		</Properties>
+	</D_HERO_INFOS_LIST>
+
+	<D_PROPS_INFOS>	FIXED_DICT
+		<implementedBy>D_PROPS_INFOS.d_props_info_inst</implementedBy>
+		<Properties>
+			<prop_id>
+			<Type>INT32</Type>
+			</prop_id>
+			<prop_name>
+				<Type>UNICODE</Type>
+			</prop_name>
+			<prop_icon>
+				<Type>STRING</Type>
+			</prop_icon>
+			<prop_type>
+				<Type>INT32</Type>
+			</prop_type>
+			<prop_quality>
+				<Type>INT32</Type>
+			</prop_quality>
+			<prop_order>
+				<Type>INT32</Type>
+			</prop_order>
+			<prop_max>
+				<Type>INT32</Type>
+			</prop_max>
+			<prop_resale>
+				<Type>INT32</Type>
+			</prop_resale>
+			<prop_diamond>
+				<Type>INT32</Type>
+			</prop_diamond>
+			<prop_hanbing>
+				<Type>INT32</Type>
+			</prop_hanbing>
+			<prop_moba>
+				<Type>INT32</Type>
+			</prop_moba>
+			<prop_jjc>
+				<Type>INT32</Type>
+			</prop_jjc>
+			<prop_maoxian>
+				<Type>INT32</Type>
+			</prop_maoxian>
+			<prop_describe>
+				<Type>UNICODE</Type>
+			</prop_describe>
+			<prop_function>
+				<Type>INT32</Type>
+			</prop_function>
+			<prop_parameters1>
+				<Type>INT32</Type>
+			</prop_parameters1>
+			<prop_parameters2>
+				<Type>INT32</Type>
+			</prop_parameters2>
+			<prop_parameters3>
+				<Type>INT32</Type>
+			</prop_parameters3>
+			<prop_parameters4>
+				<Type>INT32</Type>
+			</prop_parameters4>
+			<prop_parameters5>
+				<Type>INT32</Type>
+			</prop_parameters5>
+			<prop_parameters6>
+				<Type>INT32</Type>
+			</prop_parameters6>
+			<prop_drop1>
+				<Type>INT32</Type>
+			</prop_drop1>
+			<prop_drop2>
+				<Type>INT32</Type>
+			</prop_drop2>
+			<prop_drop3>
+				<Type>INT32</Type>
+			</prop_drop3>
+			<prop_drop4>
+				<Type>INT32</Type>
+			</prop_drop4>
+			<prop_gm>
+				<Type>INT32</Type>
+			</prop_gm>
+			<prop_buy>
+				<Type>INT32</Type>
+			</prop_buy>
+		</Properties>
+	</D_PROPS_INFOS>
+
+	<D_PROPS_INFOS_LIST>	FIXED_DICT
+		<implementedBy>D_PROPS_INFOS.d_props_info_list_inst</implementedBy>
+		<Properties>
+			<values>
+				<Type>	ARRAY <of> D_PROPS_INFOS </of>	</Type>
+			</values>
+		</Properties>
+	</D_PROPS_INFOS_LIST>
+
+	<D_SHOP_INFOS>	FIXED_DICT
+		<implementedBy>D_SHOP_INFOS.d_shop_info_inst</implementedBy>
+		<Properties>
+			<shop_id>
+				<Type>INT32</Type>
+			</shop_id>
+			<shop_des>
+				<Type>UNICODE</Type>
+			</shop_des>
+			<shop_refreshstart>
+				<Type>INT32</Type>
+			</shop_refreshstart>
+			<shop_refreshtime>
+				<Type>INT32</Type>
+			</shop_refreshtime>
+			<shop_needid>
+				<Type>INT32</Type>
+			</shop_needid>
+			<shop_needdes>
+				<Type>UNICODE</Type>
+			</shop_needdes>
+			<shop_amount>
+				<Type>INT32</Type>
+			</shop_amount>
+			<shop_refreshtime1>
+				<Type>STRING</Type>
+			</shop_refreshtime1>
+			<open_lv>
+				<Type>INT32</Type>
+			</open_lv>
+		</Properties>
+	</D_SHOP_INFOS>
+
+	<D_SHOP_INFOS_LIST>	FIXED_DICT
+		<implementedBy>D_SHOP_INFOS.d_shop_info_list_inst</implementedBy>
+		<Properties>
+			<values>
+				<Type>	ARRAY <of> D_SHOP_INFOS </of>	</Type>
+			</values>
+		</Properties>
+	</D_SHOP_INFOS_LIST>
+
+	<D_SKILL_INFOS>	FIXED_DICT
+		<implementedBy>D_SKILL_INFOS.d_skill_info_inst</implementedBy>
+		<Properties>
+			<id>
+				<Type>INT32</Type>
+			</id>
+			<name>
+				<Type>UNICODE</Type>
+			</name>
+			<skill_icon>
+				<Type>STRING</Type>
+			</skill_icon>
+			<skill_damage_chushi>
+				<Type>INT32</Type>
+			</skill_damage_chushi>
+			<skill_damage_growth>
+				<Type>INT32</Type>
+			</skill_damage_growth>
+			<skill_ad_chushi>
+				<Type>INT32</Type>
+			</skill_ad_chushi>
+			<skill_ad_growth>
+				<Type>INT32</Type>
+			</skill_ad_growth>
+			<skill_ap_chushi>
+				<Type>INT32</Type>
+			</skill_ap_chushi>
+			<skill_ap_growth>
+				<Type>INT32</Type>
+			</skill_ap_growth>
+			<skill_type>
+				<Type>INT32</Type>
+			</skill_type>
+			<skill_ongoing>
+				<Type>INT32</Type>
+			</skill_ongoing>
+			<skill_sing_time>
+				<Type>INT32</Type>
+			</skill_sing_time>
+			<skill_cutdown>
+				<Type>INT32</Type>
+			</skill_cutdown>
+			<skill_cutdownif>
+				<Type>INT32</Type>
+			</skill_cutdownif>
+			<skill_cd>
+				<Type>INT32</Type>
+			</skill_cd>
+			<attack_distance>
+				<Type>INT32</Type>
+			</attack_distance>
+			<aoe_radius>
+				<Type>INT32</Type>
+			</aoe_radius>
+		</Properties>
+	</D_SKILL_INFOS>
+
+	<D_SKILL_INFOS_LIST>	FIXED_DICT
+		<implementedBy>D_SKILL_INFOS.d_skill_info_list_inst</implementedBy>
+		<Properties>
+			<values>
+				<Type>	ARRAY <of> D_SKILL_INFOS </of>	</Type>
+			</values>
+		</Properties>
+	</D_SKILL_INFOS_LIST>
+
+	<D_TEAM_INFOS>	FIXED_DICT
+		<implementedBy>D_TEAM_INFOS.d_team_info_inst</implementedBy>
+		<Properties>
+			<id>
+				<Type>INT32</Type>
+			</id>
+			<team_id>
+				<Type>INT32</Type>
+			</team_id>
+			<position_x>
+				<Type>FLOAT</Type>
+			</position_x>
+			<position_y>
+				<Type>FLOAT</Type>
+			</position_y>
+			<position_z>
+				<Type>FLOAT</Type>
+			</position_z>
+			<direction_x>
+				<Type>FLOAT</Type>
+			</direction_x>
+			<direction_y>
+				<Type>FLOAT</Type>
+			</direction_y>
+			<direction_z>
+				<Type>FLOAT</Type>
+			</direction_z>
+		</Properties>
+	</D_TEAM_INFOS>
+
+	<D_TEAM_INFOS_LIST>	FIXED_DICT
+		<implementedBy>D_TEAM_INFOS.d_team_info_list_inst</implementedBy>
+		<Properties>
+			<values>
+				<Type>	ARRAY <of> D_TEAM_INFOS </of>	</Type>
+			</values>
+		</Properties>
+	</D_TEAM_INFOS_LIST>
+
+</root>

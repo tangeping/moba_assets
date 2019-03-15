@@ -1,0 +1,89 @@
+<root>
+	<Properties>
+
+	    <state>
+            <Type>      	UINT8                 </Type>
+            <Flags>     	CELL_PUBLIC         	</Flags>
+            <Persistent>    false                	</Persistent>
+            <Default>       0               		</Default>
+        </state>
+
+	</Properties>
+
+	<BaseMethods>
+
+	</BaseMethods>
+	
+	<CellMethods>
+
+		<reqReady>
+            <Exposed/>
+            <Arg>       UINT8      </Arg>
+        </reqReady>
+
+		<reqGamePause>
+            <Exposed/>
+        </reqGamePause>
+
+		<reqGameRunning>
+            <Exposed/>
+        </reqGameRunning>
+
+		<reqHeroConf>
+            <Exposed/>
+        </reqHeroConf>
+
+		<reqPropsConf>
+            <Exposed/>
+        </reqPropsConf>
+
+		<reqRoadConf>
+            <Exposed/>
+        </reqRoadConf>
+
+        <reqShopConf>
+            <Exposed/>
+        </reqShopConf>
+
+        <reqSkillConf>
+            <Exposed/>
+        </reqSkillConf>
+
+		<reqTeamConf>
+            <Exposed/>
+        </reqTeamConf>
+	</CellMethods>
+
+	<ClientMethods>
+
+	    <readyResult>
+        <Arg>           UINT8               </Arg>
+        </readyResult>
+
+	    <rspRoadInfo>
+        <Arg>           D_ROAD_INFOS_LIST               </Arg>
+        </rspRoadInfo>
+
+	    <rspHeroInfo>
+        <Arg>           D_HERO_INFOS_LIST               </Arg>
+        </rspHeroInfo>
+
+        <rspPropsInfo>
+        <Arg>           D_PROPS_INFOS_LIST               </Arg>
+        </rspPropsInfo>
+
+        <rspShopInfo>
+        <Arg>           D_SHOP_INFOS_LIST               </Arg>
+        </rspShopInfo>
+
+        <rspSkillInfo>
+        <Arg>           D_SKILL_INFOS_LIST               </Arg>
+        </rspSkillInfo>
+
+        <rspTeamInfo>
+        <Arg>           D_TEAM_INFOS_LIST               </Arg>
+        </rspTeamInfo>
+
+	</ClientMethods>
+</root>
+
