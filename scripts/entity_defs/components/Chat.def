@@ -1,0 +1,27 @@
+<root>
+	<Properties>
+
+	</Properties>
+
+	<BaseMethods>
+
+	</BaseMethods>
+
+	<CellMethods>
+		<say>
+            <Exposed/>
+            <Arg>           STRING               </Arg>
+            <Arg>           UNICODE               </Arg>
+		</say>
+
+	</CellMethods>
+
+	<ClientMethods>
+		<reply>
+		    <Arg>           STRING               </Arg>
+            <Arg>           UNICODE               </Arg>
+		</reply>
+
+	</ClientMethods>
+</root>
+

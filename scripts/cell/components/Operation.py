@@ -7,6 +7,8 @@ class Operation(KBEngine.EntityComponent):
 	def __init__(self):
 		KBEngine.EntityComponent.__init__(self)
 	
+		if len(self.heroList) <= 0:
+			self.heroList.extend([10001,10002])
 
 	def onAttached(self, owner):
 		"""
@@ -18,6 +20,25 @@ class Operation(KBEngine.EntityComponent):
 		"""
 		"""
 		INFO_MSG("Operation::onDetached(): owner=%i" % (owner.id))
+
+	def reqSelectHero(self,exposed,heroID):
+		"""
+
+		:param exposed:
+		:param heroID:
+		:return:
+		"""
+		if exposed != self.ownerID:
+			return
+		result = 0 #成功
+		if self.heroID > 0:
+			result = 1
+		elif heroID  not in self.heroList:
+			result = 2
+		else:
+			result = 0
+		self.heroID = heroID
+		self.client.reqSelectHeroResult(result)
 
 
 	def reqReady(self, exposed,ready):

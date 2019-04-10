@@ -8,6 +8,7 @@ from AVATAR_INFOS import TAvatarInfosList
 from AVATAR_DATA import TAvatarData
 from KBEDebug import *
 
+TIMER_TYPE_CREATE_AVATAR				 = 1
 
 class Account(KBEngine.Proxy):
 	"""
@@ -18,7 +19,21 @@ class Account(KBEngine.Proxy):
 		KBEngine.Proxy.__init__(self)
 		self.activeAvatar = None
 		self.relogin = time.time()
-	
+
+		self.addTimer(1,0, TIMER_TYPE_CREATE_AVATAR)
+
+	def onTimer(self, tid, userArg):
+		"""
+		KBEngine method.
+		引擎回调timer触发
+		"""
+		#DEBUG_MSG("FrameSyncMgr::onTimer: %i, tid:%i, arg:%i" % (self.id, tid, userArg))
+		if userArg == TIMER_TYPE_CREATE_AVATAR:
+			if len(self.characters) <= 0:
+				self.reqCreateAvatar(1, self.__ACCOUNT_NAME__)
+			else:
+				self.selectAvatarGame()
+
 	def reqAvatarList(self):
 		"""
 		exposed.
@@ -108,19 +123,14 @@ class Account(KBEngine.Proxy):
 		"""
 		INFO_MSG("Account[%i]::onClientEnabled:entities enable. entityCall:%s, clientType(%i), clientDatas=(%s), hasAvatar=%s, accountName=%s" % \
 			(self.id, self.client, self.getClientType(), self.getClientDatas(), self.activeAvatar, self.__ACCOUNT_NAME__))
-
-		if len(self.characters) <= 0:
-			self.reqCreateAvatar(1,self.__ACCOUNT_NAME__)
-		else:
-			self.selectAvatarGame()
-
 			
 	def onLogOnAttempt(self, ip, port, password):
 		"""
 		KBEngine method.
 		客户端登陆失败时会回调到这里
 		"""
-		INFO_MSG("Account[%i]::onLogOnAttempt: ip=%s, port=%i, selfclient=%s" % (self.id, ip, port, self.client))
+		INFO_MSG("Account[%i]::onLogOnAttempt: ip=%s, port=%i, self.client=%s,self.activeAvatar=%s" % \
+				 (self.id, ip, port, self.client,self.activeAvatar))
 		
 		# 如果一个在线的账号被一个客户端登陆并且onLogOnAttempt返回允许
 		# 那么会踢掉之前的客户端连接
@@ -219,7 +229,7 @@ class Account(KBEngine.Proxy):
 			avatarinfo[1] = "创建失败了"
 
 		avatar.destroy()
-		
+
 		self.selectAvatarGame()
 		#if self.client:
 		#	self.client.onCreateAvatarResult(0, avatarinfo)

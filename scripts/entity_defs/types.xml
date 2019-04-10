@@ -11,6 +11,7 @@
     <FRAMEID>             UINT32      </FRAMEID>
     <CMD_TYPE>             UINT8      </CMD_TYPE>	
     <SPACE_KEY>			UINT64		</SPACE_KEY>
+	<HERO_BAG> ARRAY <of> INT32 </of>	</HERO_BAG>
 
 	<AVATAR_DATA>	FIXED_DICT
 		<implementedBy>AVATAR_DATA.inst</implementedBy>

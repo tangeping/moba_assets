@@ -236,6 +236,19 @@ class Room(KBEngine.Entity):
             info_list[infos[0]] = infos
         entityCall.component2.client.rspTeamInfo(info_list)
 
+
+    def say(self,name,context):
+        """
+
+        :param entityCall:
+        :return:
+        """
+        for e in self.avatars.values():
+            if e is None or e.getComponent("Chat") is None:
+                continue
+            cmpChat = e.getComponent("Chat")
+            cmpChat.client.reply(name, context)
+
     #--------------------------------------------------------------------------------------------
     #                              Callbacks
     #--------------------------------------------------------------------------------------------

@@ -22,7 +22,7 @@ FS_STATE_STOP 		= 2
 # ------------------------------------------------------------------------------
 # frame state
 # ------------------------------------------------------------------------------
-FS_TIMER_TYPE_DESTROY									= 99999999 # 延时销毁entity
+FS_TIMER_TYPE_BROAD_FRAME									= 99999999 # 广播帧数据
 
 
 class FrameSyncMgr(KBEngine.Entity):
@@ -50,7 +50,7 @@ class FrameSyncMgr(KBEngine.Entity):
 		引擎回调timer触发
 		"""
 		#DEBUG_MSG("FrameSyncMgr::onTimer: %i, tid:%i, arg:%i" % (self.id, tid, userArg))
-		if userArg == FS_TIMER_TYPE_DESTROY:
+		if userArg == FS_TIMER_TYPE_BROAD_FRAME:
 			self.broadFrame()
 
 
@@ -85,7 +85,7 @@ class FrameSyncMgr(KBEngine.Entity):
 		if self.state == FS_STATE_RUNNING:
 			return
 			
-		self.addTimer(0.00001,0.00001,FS_TIMER_TYPE_DESTROY)
+		self.addTimer(0.00001,0.00001,FS_TIMER_TYPE_BROAD_FRAME)
 		
 		self.state = FS_STATE_RUNNING
 

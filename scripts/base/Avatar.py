@@ -4,15 +4,15 @@ from KBEDebug import *
 import GlobalDefine
 import SCDefine
 import random
+import time
 
 
 class Avatar(KBEngine.Proxy):
 	def __init__(self):
 		KBEngine.Proxy.__init__(self)
 
+		self.accountEntity = None
 		self.cellData["dbid"] = self.databaseID
-
-
 		self._destroyTimer = 0
 		
 	def createCell(self, space, roomKey):
@@ -26,6 +26,8 @@ class Avatar(KBEngine.Proxy):
 	def destroySelf(self):
 		"""
 		"""
+		DEBUG_MSG("Avatar[%i].destroySelf: self.client =%s" % (self.id, self.client))
+
 		if self.client is not None:
 			return
 		
@@ -34,11 +36,16 @@ class Avatar(KBEngine.Proxy):
 			self.destroyCellEntity()
 			return
 
-		KBEngine.globalData["Halls"].leaveRoom(self.id, self.roomKey)
+		if self.accountEntity != None:
+			if time.time() - self.accountEntity.relogin >1:
+				self.accountEntity.destroy()
+			else:
+				DEBUG_MSG("Avatar[%i].destroySelf: relogin =%i" % (self.id, time.time() - self.accountEntity.relogin))
 
 		# 销毁base
-		self.destroy()
-		self._destroyTimer = 0
+		if not self.isDestroyed:
+			self.destroy()
+
 
 	def onTimer(self, id, userArg):
 		"""
@@ -104,6 +111,12 @@ class Avatar(KBEngine.Proxy):
 
 		
 	def onDestroyTimer(self):
+		"""
+		销毁entity
+		:return:
+		"""
 		DEBUG_MSG("Avatar::onDestroyTimer: %i" % (self.id))
-		self.destroySelf()
+		if self.accountEntity != None:
+			self.accountEntity.activeAvatar = None
+			self.accountEntity = None
 		

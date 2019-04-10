@@ -14,6 +14,10 @@
 			<Persistent>	true					</Persistent>
 		</component2>
 
+		<component3>
+			<Type> 			Chat				    </Type>
+			<Persistent>	true					</Persistent>
+		</component3>
   	</Components>
 			
 	<Properties>
@@ -33,15 +37,18 @@
 		<dbid>
 			<Type>		DBID				</Type>
 			<Flags>		CELL_PUBLIC			</Flags>
+			<Persistent>		true				</Persistent>
 			<Default>		0				</Default>
 		</dbid>
 
 		<teamID>
 			<Type>			INT8					</Type>
 			<Flags>			ALL_CLIENTS				</Flags>
-			<Persistent>	true					</Persistent>
+			<Persistent>	flase					</Persistent>
 			<Default>		0						</Default>
 		</teamID>
+
+
 
 	</Properties>
 

@@ -104,7 +104,8 @@ class CSV_HELPER:
         :return: 有返回一个 table,没有返回 None
         '''
 
-        reader = csv.reader(KBEngine.open("data/"+fileName,"r+",'UTF-8'))
+        fileHandle = KBEngine.open("data/"+fileName,"r+",'UTF-8')
+        reader = csv.reader(fileHandle)
 
         table = [line for line in reader]
 
@@ -125,7 +126,7 @@ class CSV_HELPER:
             rows[int(row[0])] = row_dic
 
         self.datas[fileName] = rows
-        #KBEngine.close("data/" + fileName)
+        fileHandle.close()
         return self.datas.get(fileName,None)
 
 inst = CSV_HELPER()

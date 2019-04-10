@@ -58,6 +58,11 @@
 			<Arg>		ENTITYCALL		</Arg>
 		</reqGameRunning>
 
+		<say>
+		    <Arg>           STRING               </Arg>
+            <Arg>           UNICODE               </Arg>
+		</say>
+
 	</CellMethods>
 
 </root>
