@@ -1,6 +1,13 @@
 <root>
 	<Properties>
 
+   		<friends>
+			<Type>			FRIEND_LIST				</Type>
+			<Flags>			OWN_CLIENT				</Flags>
+			<Persistent>	true					</Persistent>
+			<Default>								</Default>
+		</friends>
+
 	</Properties>
 
 	<BaseMethods>
@@ -10,7 +17,6 @@
 	<CellMethods>
 		<say>
             <Exposed/>
-            <Arg>           STRING               </Arg>
             <Arg>           UNICODE               </Arg>
 		</say>
 

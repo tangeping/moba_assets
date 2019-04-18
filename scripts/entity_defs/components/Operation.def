@@ -8,19 +8,19 @@
             <Default>       0               		</Default>
         </state>
 
-   		<heroList>
-			<Type>			HERO_BAG					</Type>
-			<Flags>			OWN_CLIENT				</Flags>
-			<Persistent>	true					</Persistent>
-			<Default>								</Default>
-		</heroList>
-
    		<heroID>
 			<Type>			INT32					</Type>
 			<Flags>			OWN_CLIENT				</Flags>
-			<Persistent>	false					</Persistent>
+			<Persistent>	true					</Persistent>
 			<Default>		0						</Default>
 		</heroID>
+
+   		<heroList>
+			<Type>			HERO_BAG				</Type>
+			<Flags>			CELL_PUBLIC				</Flags>
+			<Persistent>	true					</Persistent>
+			<Default>								</Default>
+		</heroList>
 
 	</Properties>
 
@@ -29,6 +29,11 @@
 	</BaseMethods>
 	
 	<CellMethods>
+
+	    <reqHeroList>
+            <Exposed/>
+        </reqHeroList>
+
 		<reqSelectHero>
             <Exposed/>
             <Arg>       INT32      </Arg>
@@ -74,9 +79,16 @@
 
 	<ClientMethods>
 
+	    <reqHeroListResult>
+        <Arg>           HERO_BAG               </Arg>
+        </reqHeroListResult>
+
 		<reqSelectHeroResult>
             <Arg>       UINT8      </Arg>
         </reqSelectHeroResult>
+
+		<broadGameStart>
+        </broadGameStart>
 
 	    <readyResult>
         <Arg>           UINT8               </Arg>

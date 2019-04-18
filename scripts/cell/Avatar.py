@@ -13,6 +13,7 @@ class Avatar(KBEngine.Entity,GameObject):
 		# self.topSpeedY = 10.0
 		self.getCurrRoom().onEnter(self)
 
+
 	def isAvatar(self):
 		"""
 		virtual method.

@@ -1,0 +1,35 @@
+<root>
+	<Properties>
+
+	</Properties>
+
+	<BaseMethods>
+       	<joinMatcher>
+			<Arg>		ENTITYCALL		</Arg>
+			<Arg>		PY_DICT	        </Arg>
+			<Arg>       BOOL           </Arg>
+		</joinMatcher>
+
+       	<exitMatcher>
+			<Arg>		ENTITYCALL		</Arg>
+			<Arg>       MATCH_ID       </Arg>
+		</exitMatcher>
+
+       	<onRoomGetCell>
+			<Arg>		ENTITYCALL		</Arg>
+			<Arg>       MATCH_ID       </Arg>
+		</onRoomGetCell>
+
+	</BaseMethods>
+
+	<CellMethods>
+
+
+	</CellMethods>
+
+	<ClientMethods>
+
+
+	</ClientMethods>
+</root>
+

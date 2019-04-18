@@ -15,14 +15,93 @@
     <SUITE FILE_PATH="coverage/scripts$b.coverage" NAME="b Coverage Results" MODIFIED="1550652904909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/tool/pytest" />
     <SUITE FILE_PATH="coverage/scripts$genFile.coverage" NAME="genFile Coverage Results" MODIFIED="1550735158893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/scripts$d_hero.coverage" NAME="d_hero Coverage Results" MODIFIED="1545713268210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/scripts$d_rules.coverage" NAME="d_rules Coverage Results" MODIFIED="1554703152759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Room.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Room.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cell/Room.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1653">
-              <caret line="173" column="0" lean-forward="true" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+            <state relative-caret-position="241">
+              <caret line="84" column="99" lean-forward="true" selection-start-line="84" selection-start-column="99" selection-end-line="84" selection-end-column="99" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatchAvatar.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/components/MatchAvatar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+              <folding>
+                <element signature="e#24#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Avatar.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/Avatar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoomRule.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/components/RoomRule.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="e#24#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatchRule.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/components/MatchRule.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="44" column="11" lean-forward="true" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
+              <folding>
+                <element signature="e#24#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Room.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/Room.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="39" />
+              <folding>
+                <element signature="e#24#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Avatar.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cell/Avatar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameObject.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/interfaces/GameObject.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="19" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -33,88 +112,18 @@
       <file leaf-file-name="Room.def" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entity_defs/Room.def">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1064">
-              <caret line="56" column="23" lean-forward="false" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="23" />
+            <state relative-caret-position="95">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrameSyncReport.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cell/components/FrameSyncReport.py">
+      <file leaf-file-name="Operation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cell/components/Operation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FrameSyncReport.def" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entity_defs/components/FrameSyncReport.def">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FrameSyncMgr.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cell/FrameSyncMgr.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="117" column="43" lean-forward="true" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="D_HERO_INFOS.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user_type/D_HERO_INFOS.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1102">
-              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="types.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entity_defs/types.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="265" column="35" lean-forward="false" selection-start-line="265" selection-start-column="35" selection-end-line="265" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Operation.def" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entity_defs/components/Operation.def">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FrameSync.def" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entity_defs/components/FrameSync.def">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FS_ENTITY_DATA.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user_type/FS_ENTITY_DATA.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="42" />
+            <state relative-caret-position="487">
+              <caret line="83" column="29" lean-forward="false" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -131,31 +140,41 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>readyResult</find>
-      <find>ready</find>
-      <find>ROAD</find>
-      <find>skill_ap_growth</find>
-      <find>Road</find>
+      <find>FS_TIMER_TYPE_DESTROY</find>
+      <find>createEntity</find>
+      <find>__onAvatarCreated</find>
+      <find>Test</find>
+      <find>playerreqs</find>
+      <find>MatcherRule</find>
+      <find>compMatchRoom</find>
+      <find>MatchRoom</find>
+      <find>Halls</find>
+      <find>HallsMatchers</find>
+      <find>addTimer</find>
+      <find>reqJoinMatch</find>
+      <find>createMatcher</find>
+      <find>ERROR_MATCHER_ARGS_OK</find>
+      <find>playerReqsReady</find>
+      <find>enterRoomReqs</find>
+      <find>createMatcher have in mathers ,self.lastNewRoomKey</find>
+      <find>entityCall.id</find>
+      <find>check</find>
+      <find>randomJoinMather</find>
+      <find>playerReady</find>
+      <find>checkMatchRule</find>
+      <find>comMatchCall.id</find>
+      <find>setGroup</find>
+      <find>entityID = %d,entityReqs</find>
+      <find>ErrorCode.ERROR_OK</find>
+      <find>reqHeroListResult</find>
+      <find>exitMatcher</find>
+      <find>playerReqs</find>
+      <find>playerReqsCancel</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data/d_cooldown.csv" />
-        <option value="$PROJECT_DIR$/data/d_hero.py" />
-        <option value="$PROJECT_DIR$/entity_defs/components/FrameSyncReport.def" />
-        <option value="$PROJECT_DIR$/data/CSV_Helper.py" />
-        <option value="$PROJECT_DIR$/common/eval.py" />
-        <option value="$PROJECT_DIR$/cell/Avatar.py" />
-        <option value="$PROJECT_DIR$/entity_defs/Avatar.def" />
-        <option value="$PROJECT_DIR$/cell/components/Chat.py" />
-        <option value="$PROJECT_DIR$/data/genUT.py" />
-        <option value="$PROJECT_DIR$/user_type/D_ROAD_DATA.py" />
-        <option value="$PROJECT_DIR$/data/reader.py" />
-        <option value="$PROJECT_DIR$/user_type/D_PROPS_INFOS.py" />
-        <option value="$PROJECT_DIR$/user_type/D_ROAD_INFOS.py" />
-        <option value="$PROJECT_DIR$/user_type/D_SHOP_INFOS.py" />
-        <option value="$PROJECT_DIR$/user_type/D_TEAM_INFOS.py" />
         <option value="F:/tool/pytest/a.py" />
         <option value="F:/tool/pytest/b.py" />
         <option value="$PROJECT_DIR$/data/d_hero.csv" />
@@ -165,19 +184,48 @@
         <option value="$PROJECT_DIR$/data/d_skill.csv" />
         <option value="$PROJECT_DIR$/data/d_team.csv" />
         <option value="$PROJECT_DIR$/data/genFile.py" />
-        <option value="$PROJECT_DIR$/common/CSV_Helper.py" />
         <option value="$PROJECT_DIR$/user_type/D_SKILL_INFOS.py" />
         <option value="$PROJECT_DIR$/cell/components/FrameSync.py" />
         <option value="$PROJECT_DIR$/entity_defs/FrameSyncMgr.def" />
         <option value="$PROJECT_DIR$/entity_defs/components/FrameSync.def" />
-        <option value="$PROJECT_DIR$/cell/Room.py" />
-        <option value="$PROJECT_DIR$/entity_defs/Room.def" />
-        <option value="$PROJECT_DIR$/entity_defs/components/Operation.def" />
-        <option value="$PROJECT_DIR$/cell/components/Operation.py" />
         <option value="$PROJECT_DIR$/user_type/D_HERO_INFOS.py" />
-        <option value="$PROJECT_DIR$/entity_defs/types.xml" />
         <option value="$PROJECT_DIR$/cell/components/FrameSyncReport.py" />
+        <option value="$PROJECT_DIR$/base/MatchRule.py" />
         <option value="$PROJECT_DIR$/cell/FrameSyncMgr.py" />
+        <option value="$PROJECT_DIR$/common/CSV_Helper.py" />
+        <option value="$PROJECT_DIR$/base/Account.py" />
+        <option value="$PROJECT_DIR$/entity_defs/Halls.def" />
+        <option value="$PROJECT_DIR$/data/d_rules.py" />
+        <option value="$PROJECT_DIR$/cell/components/MatchAvatar.py" />
+        <option value="$PROJECT_DIR$/cell/components/MatchRoom.py" />
+        <option value="$PROJECT_DIR$/base/components/Mather.py" />
+        <option value="$PROJECT_DIR$/base/components/MatherRule.py" />
+        <option value="$PROJECT_DIR$/entity_defs/components/MatchRoom.def" />
+        <option value="$PROJECT_DIR$/data/d_matchs.py" />
+        <option value="$PROJECT_DIR$/common/GlobalDefine.py" />
+        <option value="$PROJECT_DIR$/cell/components/Operation.py" />
+        <option value="$PROJECT_DIR$/entity_defs/components/MatchAvatar.def" />
+        <option value="$PROJECT_DIR$/user_type/D_MATCH_REQUEST.py" />
+        <option value="$PROJECT_DIR$/entity_defs/components/Matchers.def" />
+        <option value="$PROJECT_DIR$/common/ErrorCode.py" />
+        <option value="$PROJECT_DIR$/base/components/Matchers.py" />
+        <option value="$PROJECT_DIR$/base/Halls.py" />
+        <option value="$PROJECT_DIR$/base/components/MatchRoom.py" />
+        <option value="$PROJECT_DIR$/cell/Avatar.py" />
+        <option value="$PROJECT_DIR$/entity_defs/Avatar.def" />
+        <option value="$PROJECT_DIR$/entity_defs/types.xml" />
+        <option value="$PROJECT_DIR$/entity_defs/components/Operation.def" />
+        <option value="$PROJECT_DIR$/entity_defs/components/Chat.def" />
+        <option value="$PROJECT_DIR$/cell/components/Chat.py" />
+        <option value="$PROJECT_DIR$/base/Avatar.py" />
+        <option value="$PROJECT_DIR$/base/components/MatchAvatar.py" />
+        <option value="$PROJECT_DIR$/base/components/Matcher.py" />
+        <option value="$PROJECT_DIR$/base/components/MatchRule.py" />
+        <option value="$PROJECT_DIR$/base/interfaces/GameObject.py" />
+        <option value="$PROJECT_DIR$/base/Room.py" />
+        <option value="$PROJECT_DIR$/entity_defs/Room.def" />
+        <option value="$PROJECT_DIR$/base/components/RoomRule.py" />
+        <option value="$PROJECT_DIR$/cell/Room.py" />
       </list>
     </option>
   </component>
@@ -187,11 +235,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1874" />
-    <option name="y" value="193" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="y" value="44" />
     <option name="width" value="1886" />
-    <option name="height" value="995" />
+    <option name="height" value="991" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -208,7 +256,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,18 +266,18 @@
             <path>
               <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="cell" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
               <item name="cell" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
@@ -257,14 +304,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/CSV_Helper.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="type&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/types.xml&#10;framesync.de&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/components/FrameSync.def&#10;framesyncm&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/FrameSyncMgr.def&#10;room.de&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/Room.def&#10;opera&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/components/Operation.def&#10;ava&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/Avatar.def&#10;framesyncre&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/components/FrameSyncReport.def&#10;typ&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/types.xml&#10;oper&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/cell/components/Operation.py&#10;types&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/types.xml&#10;types.x&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/types.xml&#10;operation.d&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/components/Operation.def&#10;avatar.de&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/Avatar.def&#10;operation.de&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/components/Operation.def&#10;avata.de&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/Avatar.def&#10;room&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/cell/Room.py&#10;csv&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/common/CSV_Helper.py&#10;room.p&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/cell/Room.py" />
+    <property name="SearchEverywhereHistoryKey" value="oper&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/cell/components/Operation.py&#10;room.def&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/Room.def&#10;roomr&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/base/components/RoomRule.py&#10;typ&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/types.xml&#10;matchava&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/components/MatchAvatar.def&#10;chat&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/components/Chat.def&#10;opera&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/components/Operation.def&#10;avat&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/Avatar.def&#10;mat&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/components/MatchAvatar.def&#10;glo&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/common/GlobalDefine.py&#10;ava&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/Avatar.def&#10;cha&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/components/Chat.def&#10;avatar.de&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/Avatar.def&#10;erroco&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/common/ErrorCode.py&#10;type&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/types.xml&#10;matchers.de&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/components/Matchers.def&#10;avatar&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/Avatar.def&#10;operation&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/components/Operation.def&#10;gl&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/common/GlobalDefine.py&#10;erro&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/common/ErrorCode.py&#10;g&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/common/GlobalDefine.py&#10;errorc&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/common/ErrorCode.py&#10;entit&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entities.xml&#10;framesync.de&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/components/FrameSync.def&#10;framesyncm&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/FrameSyncMgr.def&#10;room.de&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/Room.def&#10;framesyncre&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/components/FrameSyncReport.def&#10;types&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/types.xml&#10;types.x&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/types.xml&#10;operation.d&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/components/Operation.def&#10;operation.de&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/components/Operation.def&#10;avata.de&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/entity_defs/Avatar.def&#10;room&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/cell/Room.py&#10;csv&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/common/CSV_Helper.py&#10;room.p&#9;FILE&#9;file://E:/kbengine/moba_assets/scripts/cell/Room.py" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="PyCoverageOptionsProvider">
@@ -272,6 +320,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\kbengine\moba_assets\scripts\base\components" />
+      <recent name="E:\kbengine\moba_assets\scripts\base" />
+      <recent name="E:\kbengine\moba_assets\scripts\entity_defs\components" />
       <recent name="E:\kbengine\moba_assets\scripts\common" />
       <recent name="E:\kbengine\moba_assets\scripts\data" />
     </key>
@@ -288,7 +339,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.genFile">
+  <component name="RunManager" selected="Python.d_rules">
     <configuration name="CSV_Helper" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -325,20 +376,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="d_hero" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="d_rules" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scripts" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\kbengine\moba_assets\scripts\common\CSV_Helper.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/d_rules.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -380,19 +431,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.d_hero" />
-      <item index="1" class="java.lang.String" itemvalue="Python.eval" />
-      <item index="2" class="java.lang.String" itemvalue="Python.CSV_Helper" />
-      <item index="3" class="java.lang.String" itemvalue="Python.genFile" />
-      <item index="4" class="java.lang.String" itemvalue="Python.b" />
+      <item index="0" class="java.lang.String" itemvalue="Python.eval" />
+      <item index="1" class="java.lang.String" itemvalue="Python.CSV_Helper" />
+      <item index="2" class="java.lang.String" itemvalue="Python.genFile" />
+      <item index="3" class="java.lang.String" itemvalue="Python.b" />
+      <item index="4" class="java.lang.String" itemvalue="Python.d_rules" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.genFile" />
-        <item index="1" class="java.lang.String" itemvalue="Python.b" />
-        <item index="2" class="java.lang.String" itemvalue="Python.CSV_Helper" />
-        <item index="3" class="java.lang.String" itemvalue="Python.eval" />
-        <item index="4" class="java.lang.String" itemvalue="Python.d_hero" />
+        <item index="0" class="java.lang.String" itemvalue="Python.d_rules" />
+        <item index="1" class="java.lang.String" itemvalue="Python.genFile" />
+        <item index="2" class="java.lang.String" itemvalue="Python.b" />
+        <item index="3" class="java.lang.String" itemvalue="Python.CSV_Helper" />
+        <item index="4" class="java.lang.String" itemvalue="Python.eval" />
       </list>
     </recent_temporary>
   </component>
@@ -413,28 +464,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14479166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934713" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1686616" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14479166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934713" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33055267" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934713" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,202 +511,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/d_hero.py" />
-    <entry file="file://$PROJECT_DIR$/entity_defs/interfaces/GameObject.def">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/eval.py" />
-    <entry file="file://$PROJECT_DIR$/base/Halls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2299">
-          <caret line="124" column="29" lean-forward="false" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/Avatar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/Account.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/Room.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cell/Avatar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cell/components/Chat.py" />
-    <entry file="file://$PROJECT_DIR$/cell/kbemain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cell/interfaces/GameObject.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_type/D_ROAD_DATA.py" />
-    <entry file="file://$PROJECT_DIR$/user_type/AVATAR_DATA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_type/FS_FRAME_DATA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_type/FS_FRAME_LIST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/genUT.py" />
-    <entry file="file://$PROJECT_DIR$/user_type/AVATAR_INFOS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/KBEDebug.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/GlobalDefine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entities.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/reader.py" />
-    <entry file="file://$PROJECT_DIR$/user_type/D_ROAD_INFOS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_type/D_PROPS_INFOS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="74" column="21" lean-forward="false" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_type/D_SHOP_INFOS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_type/D_TEAM_INFOS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Classify/word.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/tool/pytest/a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/tool/pytest/b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/d_hero.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="60" lean-forward="false" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/d_props.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/d_road.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
@@ -666,13 +527,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/d_shop.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="0">
@@ -681,32 +542,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/d_skill.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
         </state>
       </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/d_team.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -717,13 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/CSV_Helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user_type/D_SKILL_INFOS.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -731,76 +570,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cell/components/FrameSync.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entity_defs/FrameSyncMgr.def">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cell/components/Operation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="38" column="36" lean-forward="false" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entity_defs/Room.def">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="56" column="23" lean-forward="false" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user_type/D_HERO_INFOS.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1102">
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entity_defs/types.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="265" column="35" lean-forward="false" selection-start-line="265" selection-start-column="35" selection-end-line="265" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entity_defs/components/Operation.def">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entity_defs/Avatar.def">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cell/Room.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1653">
-          <caret line="173" column="0" lean-forward="true" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,7 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
           <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,30 +588,334 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entity_defs/components/FrameSync.def">
+    <entry file="file://$PROJECT_DIR$/cell/interfaces/GameObject.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="411">
+          <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/entity_defs/FrameSyncMgr.def">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/MatchRule.py" />
     <entry file="file://$PROJECT_DIR$/cell/components/FrameSyncReport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="228">
+          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cell/FrameSyncMgr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="117" column="43" lean-forward="true" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
+        <state relative-caret-position="247">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="53" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CSV_Helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="128" column="5" lean-forward="false" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cell/components/MatchRoom.py" />
+    <entry file="file://$PROJECT_DIR$/cell/components/MatchAvatar.py" />
+    <entry file="file://$PROJECT_DIR$/data/d_rules.py" />
+    <entry file="file://$PROJECT_DIR$/entity_defs/Account.def">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entities.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity_defs/Halls.def">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/d_hero.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="60" lean-forward="false" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/d_team.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity_defs/components/FrameSync.def">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_type/D_MATCH_REQUEST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cell/components/FrameSync.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/ErrorCode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/Halls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="67" column="39" lean-forward="false" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/components/MatchRoom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity_defs/components/Matchers.def">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity_defs/components/MatchRoom.def">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/GlobalDefine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity_defs/types.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity_defs/components/MatchAvatar.def">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity_defs/components/Operation.def">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity_defs/components/Chat.def">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity_defs/Avatar.def">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cell/components/Chat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/Account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="100" column="47" lean-forward="false" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/d_matchs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="58" lean-forward="true" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/components/Matchers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="179" column="19" lean-forward="false" selection-start-line="179" selection-start-column="8" selection-end-line="179" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/components/Matcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="95" column="34" lean-forward="true" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity_defs/Room.def">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/components/MatchRule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="44" column="11" lean-forward="true" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/interfaces/GameObject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/components/RoomRule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/Room.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/Avatar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/components/MatchAvatar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cell/Avatar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cell/components/Operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="83" column="29" lean-forward="false" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cell/Room.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="84" column="99" lean-forward="true" selection-start-line="84" selection-start-column="99" selection-end-line="84" selection-end-column="99" />
           <folding />
         </state>
       </provider>

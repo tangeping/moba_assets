@@ -18,14 +18,14 @@ class Chat(KBEngine.EntityComponent):
         INFO_MSG("Operation::onDetached(): owner=%i" % (owner.id))
 
 
-    def say(self,exposed,name, context):
+    def say(self,exposed,context):
         '''
         帧同步开始
         '''
-        if self.id != exposed:
+        if self.owner.id != exposed:
             return
 
         room = self.owner.getCurrRoom()
         if room:
-            room.say(name, context)
+            room.say(self.owner.name, context)
 

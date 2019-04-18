@@ -3,6 +3,7 @@ import KBEngine
 from KBEDebug import *
 import SCDefine
 import CSV_Helper
+import GlobalDefine
 
 from D_ROAD_INFOS import DRoadInfos
 from D_ROAD_INFOS import DRoadInfosList
@@ -49,6 +50,44 @@ class Room(KBEngine.Entity):
 
         self.conf = CSV_Helper.inst
 
+    def playerReady(self, entityCall):
+        """
+
+        :param entityCall:
+        :return:
+        """
+        if entityCall.component2.state !=  0:
+            return
+
+        entityCall.component2.state = 1
+
+        readCount = 0
+        for e in self.avatars.values():
+            readCount = readCount + e.component2.state
+
+        canBegin = (readCount == len(self.avatars))
+        if not canBegin :
+            return
+
+        datas = self.conf.getTable('d_team.csv')
+
+        if datas is None:
+            return
+
+        count = 0 #d_team.csv 的索引id是从1开始的
+        for e in self.avatars.values():
+            index = (count +1) if e.teamID == GlobalDefine.TEAM_A_ID else (count + 1 + TEAM_MAX_PLAYER)
+            count += 1
+            row_data = datas.get(index,None)
+            if row_data is None:
+                continue
+            e.position = (row_data['position_x'],row_data['position_y'],row_data['position_z'])
+            e.direction = (row_data['direction_x'],row_data['direction_y'],row_data['direction_z'])
+            e.component2.client.broadGameStart()
+            e.component2.state = 1
+            self.component1.start()
+
+
     def reqReady(self,entityCall,ready):
         """
         玩家开始准备
@@ -77,6 +116,7 @@ class Room(KBEngine.Entity):
         """
         游戏暂停
         """
+
         if entityCall.component2.state != 1:
             return
         entityCall.component2.state = 2
@@ -93,10 +133,10 @@ class Room(KBEngine.Entity):
 
 
     def setGroup(self):
-        '''
+        """
         设置分组
         :return: None
-        '''
+        """
 
         if len(self.avatars) % 2 !=0:
             return

@@ -1,4 +1,12 @@
 <root>
+  	<Components>
+		<compMatchers>
+			<Type> 			Matchers			    </Type>
+			<Persistent>	true					</Persistent>
+		</compMatchers>
+
+  	</Components>
+
 	<Properties>
 	</Properties>
 

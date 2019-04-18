@@ -4,14 +4,16 @@ import random
 import copy
 import math
 from KBEDebug import *
+from interfaces.GameObject import GameObject
 
-class Room(KBEngine.Entity):
+class Room(KBEngine.Entity,GameObject):
 	"""
 	一个可操控cellapp上真正space的实体
 	注意：它是一个实体，并不是真正的space，真正的space存在于cellapp的内存中，通过这个实体与之关联并操控space。
 	"""
 	def __init__(self):
 		KBEngine.Entity.__init__(self)
+		GameObject.__init__(self)
 		
 		self.cellData["roomKeyC"] = self.roomKey
 		
@@ -24,23 +26,22 @@ class Room(KBEngine.Entity):
 		defined method.
 		请求进入某个space中
 		"""
-		entityCall.createCell(self.cell, self.roomKey)
-
+		DEBUG_MSG("Room.enterRoom,entity.%i,position = %s,direction = %s"%(entityCall.id,position,direction))
 
 	def leaveRoom(self, entityID):
 		"""
 		defined method.
 		某个玩家请求退出这个space
 		"""
-		pass
+		DEBUG_MSG("Room.leaveRoom,entity.%i "% (entityID))
 		
 	def onTimer(self, tid, userArg):
 		"""
 		KBEngine method.
 		引擎回调timer触发
 		"""
-		#DEBUG_MSG("%s::onTimer: %i, tid:%i, arg:%i" % (self.getScriptName(), self.id, tid, userArg))
-		pass
+		DEBUG_MSG("%s::onTimer: %i, tid:%i, arg:%i" % (self.getScriptName(), self.id, tid, userArg))
+
 		
 
 	def onLoseCell(self):
@@ -49,8 +50,6 @@ class Room(KBEngine.Entity):
 		entity的cell部分实体丢失
 		"""
 		KBEngine.globalData["Halls"].onRoomLoseCell(self.roomKey)
-		
-		self.avatars = {}
 		self.destroy()
 
 	def onGetCell(self):

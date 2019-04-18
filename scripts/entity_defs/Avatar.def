@@ -18,6 +18,12 @@
 			<Type> 			Chat				    </Type>
 			<Persistent>	true					</Persistent>
 		</component3>
+
+		<compMatchAvatar>
+			<Type> 			MatchAvatar				    </Type>
+			<Persistent>	true					</Persistent>
+		</compMatchAvatar>
+
   	</Components>
 			
 	<Properties>
@@ -41,10 +47,19 @@
 			<Default>		0				</Default>
 		</dbid>
 
+
+		<teamID_Base>
+			<Type>			INT8					</Type>
+			<Flags>			BASE			        </Flags>
+			<Persistent>	true					</Persistent>
+			<Default>		0						</Default>
+		</teamID_Base>
+
+
 		<teamID>
 			<Type>			INT8					</Type>
-			<Flags>			ALL_CLIENTS				</Flags>
-			<Persistent>	flase					</Persistent>
+			<Flags>			ALL_CLIENTS			    </Flags>
+			<Persistent>	true					</Persistent>
 			<Default>		0						</Default>
 		</teamID>
 
@@ -60,6 +75,10 @@
 			<Arg>		ENTITYCALL					</Arg>
 			<Arg>		SPACE_KEY					</Arg>
 		</createCell>
+
+		<teamIDChanged>
+			<Arg>		INT8					</Arg>
+		</teamIDChanged>
 	</BaseMethods>
 
 	<CellMethods>

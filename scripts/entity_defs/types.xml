@@ -12,6 +12,31 @@
     <CMD_TYPE>             UINT8      </CMD_TYPE>	
     <SPACE_KEY>			UINT64		</SPACE_KEY>
 	<HERO_BAG> ARRAY <of> INT32 </of>	</HERO_BAG>
+	<FRIEND_LIST> ARRAY <of> INT32 </of>	</FRIEND_LIST>
+	<ROOM_KEY>			UINT64		</ROOM_KEY>
+	<MATCH_ID>			UINT64		</MATCH_ID>
+	<MATCH_TYPE>		UINT32		</MATCH_TYPE>
+	<PASSWD>		UINT32		</PASSWD>
+
+	<D_MATCH_REQUEST>	FIXED_DICT
+		<implementedBy>D_MATCH_REQUEST.matching_info_inst</implementedBy>
+		<Properties>
+			<utype>
+				<Type>	MATCH_TYPE	</Type>
+			</utype>
+			<matchID>
+				<Type>	MATCH_ID	</Type>
+			</matchID>
+			<passwd>
+				<Type>	PASSWD	</Type>
+			</passwd>
+			<teamID>
+				<Type>	INT8	</Type>
+			</teamID>
+		</Properties>
+	</D_MATCH_REQUEST>
+
+
 
 	<AVATAR_DATA>	FIXED_DICT
 		<implementedBy>AVATAR_DATA.inst</implementedBy>
@@ -46,7 +71,7 @@
 			</data>
 		</Properties>
 	</AVATAR_INFOS>	
-	
+
 	<AVATAR_INFOS_LIST>	FIXED_DICT
 		<implementedBy>AVATAR_INFOS.avatar_info_list_inst</implementedBy>
 		<Properties>

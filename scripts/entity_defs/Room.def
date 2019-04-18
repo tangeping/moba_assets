@@ -1,10 +1,20 @@
 <root>
 
+	<Interfaces>
+		<Interface>			GameObject		</Interface>
+	</Interfaces>
+
   <Components>
 		<component1>			
 			<Type> 			FrameSync					</Type>
 			<Persistent>	true					</Persistent>
 		</component1>
+
+		<compMatchRoom>
+			<Type> 			MatchRoom				    </Type>
+			<Persistent>	true					</Persistent>
+		</compMatchRoom>
+
   </Components>	
 
 	<Properties>
