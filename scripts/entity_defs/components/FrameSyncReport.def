@@ -3,7 +3,7 @@
 
 	    <farmeID>
             <Type>      	FRAMEID                 </Type>
-            <Flags>     	CELL_PUBLIC         	</Flags>
+            <Flags>     	OWN_CLIENT         	    </Flags>
             <Persistent>    false                	</Persistent>
             <Default>       0               		</Default>
         </farmeID>
